@@ -13,7 +13,6 @@ public class ConnectionFactory {
 	}
 	// Obtém conexão com o banco de dados
 	static Connection obtemConexao() throws SQLException {
-		System.out.println("teste");
 		return DriverManager
 				.getConnection("jdbc:mysql://localhost/prat_prog?user=root&password=");
 	}

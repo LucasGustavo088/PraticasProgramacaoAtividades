@@ -13,7 +13,7 @@
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="index.jsp">Início</a></li>
-				<li><a href="ListarPaises.jsp">Listar países</a></li>
+				<li><a href="controller.do?command=ListarPaisesReiniciar">Listar países</a></li>
 			</ul>
 		</div>
 	</div>

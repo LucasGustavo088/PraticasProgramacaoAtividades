@@ -31,6 +31,7 @@ public class LogFilter implements Filter {
 		HttpSession session = req.getSession();
 		Usuario usuario = (Usuario)session.getAttribute("logado");
 		
+		
 		if(usuario == null){
 			System.out.println(req.getParameter("command"));
 		} else {
